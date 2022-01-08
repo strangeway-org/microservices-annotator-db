@@ -5,5 +5,11 @@
     "methodName" : "request",
     "argsCount" : 1,
     "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "java.net.http.HttpClient",
+    "methodName" : "send",
+    "argsCount" : 1,
+    "interactionType" : "REQUEST"
   } ]
 }
