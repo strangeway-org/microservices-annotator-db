@@ -9,7 +9,7 @@
     "language" : "JVM",
     "className" : "java.net.http.HttpClient",
     "methodName" : "send",
-    "argsCount" : 1,
+    "argsCount" : 2,
     "interactionType" : "REQUEST"
   } ]
 }
