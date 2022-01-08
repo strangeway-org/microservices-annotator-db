@@ -1,15 +1,21 @@
 {
   "interactions" : [ {
     "language" : "JVM",
-    "className" : "com.intellij.util.io.HttpRequests",
-    "methodName" : "request",
-    "argsCount" : 1,
-    "interactionType" : "REQUEST"
+    "className" : "java.nio.file.Files",
+    "methodName" : "createTempFile",
+    "argsCount" : 3,
+    "interactionType" : "FILESYSTEM"
   }, {
     "language" : "JVM",
     "className" : "java.net.http.HttpClient",
     "methodName" : "send",
     "argsCount" : 2,
     "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.PrintStream",
+    "methodName" : "println",
+    "argsCount" : 1,
+    "interactionType" : "IO_WRITE"
   } ]
 }
