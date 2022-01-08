@@ -1,0 +1,9 @@
+{
+  "interactions" : [ {
+    "language" : "JVM",
+    "className" : "com.intellij.util.io.HttpRequests",
+    "methodName" : "request",
+    "argsCount" : 1,
+    "interactionType" : "REQUEST"
+  } ]
+}
