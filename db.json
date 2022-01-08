@@ -17,5 +17,53 @@
     "methodName" : "println",
     "argsCount" : 1,
     "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.data.r2dbc.core.R2dbcEntityTemplate",
+    "methodName" : "insert",
+    "argsCount" : 1,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.reactive.function.client.WebClient.RequestHeadersSpec",
+    "methodName" : "exchangeToMono",
+    "argsCount" : 1,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.r2dbc.core.RowsFetchSpec",
+    "methodName" : "all",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.r2dbc.core.RowsFetchSpec",
+    "methodName" : "one",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.File",
+    "methodName" : "exists",
+    "argsCount" : 0,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.File",
+    "methodName" : "mkdir",
+    "argsCount" : 0,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.lang.Throwable",
+    "methodName" : "printStackTrace",
+    "argsCount" : 0,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "io.micronaut.http.client.HttpClient",
+    "methodName" : "retrieve",
+    "argsCount" : 2,
+    "interactionType" : "REQUEST"
   } ]
 }
