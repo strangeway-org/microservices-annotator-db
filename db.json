@@ -31,18 +31,6 @@
     "interactionType" : "REQUEST"
   }, {
     "language" : "JVM",
-    "className" : "org.springframework.r2dbc.core.RowsFetchSpec",
-    "methodName" : "all",
-    "argsCount" : 0,
-    "interactionType" : "DATABASE"
-  }, {
-    "language" : "JVM",
-    "className" : "org.springframework.r2dbc.core.RowsFetchSpec",
-    "methodName" : "one",
-    "argsCount" : 0,
-    "interactionType" : "DATABASE"
-  }, {
-    "language" : "JVM",
     "className" : "java.io.File",
     "methodName" : "exists",
     "argsCount" : 0,
@@ -65,5 +53,209 @@
     "methodName" : "retrieve",
     "argsCount" : 2,
     "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "com.intellij.util.io.RequestBuilder",
+    "methodName" : "connect",
+    "argsCount" : 1,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "com.intellij.util.io.HttpRequests.Request",
+    "methodName" : "saveToFile",
+    "argsCount" : 2,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.File",
+    "methodName" : "delete",
+    "argsCount" : 0,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "com.intellij.util.io.HttpRequests.Request",
+    "methodName" : "write",
+    "argsCount" : 1,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "com.intellij.util.io.HttpRequests.Request",
+    "methodName" : "readString",
+    "argsCount" : 0,
+    "interactionType" : "IO_READ"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.persistence.EntityManager",
+    "methodName" : "merge",
+    "argsCount" : 1,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.persistence.EntityManager",
+    "methodName" : "persist",
+    "argsCount" : 1,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.persistence.EntityManager",
+    "methodName" : "remove",
+    "argsCount" : 1,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.persistence.EntityManager",
+    "methodName" : "find",
+    "argsCount" : 2,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.persistence.EntityManager",
+    "methodName" : "flush",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.persistence.EntityTransaction",
+    "methodName" : "commit",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.persistence.EntityTransaction",
+    "methodName" : "rollback",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.persistence.TypedQuery",
+    "methodName" : "getResultList",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.persistence.Query",
+    "methodName" : "getResultList",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.reactive.function.client.ClientResponse",
+    "methodName" : "bodyToMono",
+    "argsCount" : 1,
+    "interactionType" : "IO_READ"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "createDirectories",
+    "argsCount" : 2,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.util.FileSystemUtils",
+    "methodName" : "deleteRecursively",
+    "argsCount" : 1,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "createTempDirectory",
+    "argsCount" : 2,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "createDirectory",
+    "argsCount" : 2,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "newInputStream",
+    "argsCount" : 2,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "deleteIfExists",
+    "argsCount" : 1,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.http.codec.multipart.FilePart",
+    "methodName" : "transferTo",
+    "argsCount" : 1,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.util.Properties",
+    "methodName" : "load",
+    "argsCount" : 1,
+    "interactionType" : "IO_READ"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "newOutputStream",
+    "argsCount" : 2,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.data.r2dbc.core.R2dbcEntityTemplate",
+    "methodName" : "delete",
+    "argsCount" : 2,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.r2dbc.core.DatabaseClient.GenericExecuteSpec",
+    "methodName" : "fetch",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.test.web.reactive.server.WebTestClient.RequestHeadersSpec",
+    "methodName" : "exchange",
+    "argsCount" : 0,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.mail.javamail.JavaMailSender",
+    "methodName" : "send",
+    "argsCount" : 1,
+    "interactionType" : "MESSAGE_SEND"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.amqp.core.AmqpTemplate",
+    "methodName" : "convertAndSend",
+    "argsCount" : 2,
+    "interactionType" : "MESSAGE_SEND"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "exchange",
+    "argsCount" : 5,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.PrintStream",
+    "methodName" : "println",
+    "argsCount" : 0,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.FileOutputStream",
+    "methodName" : "FileOutputStream",
+    "argsCount" : 1,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "delete",
+    "argsCount" : 1,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "exists",
+    "argsCount" : 2,
+    "interactionType" : "FILESYSTEM"
   } ]
 }
