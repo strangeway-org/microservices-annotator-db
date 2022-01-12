@@ -257,5 +257,77 @@
     "methodName" : "exists",
     "argsCount" : 2,
     "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "io.micronaut.http.client.BlockingHttpClient",
+    "methodName" : "retrieve",
+    "argsCount" : 2,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.jms.MessageProducer",
+    "methodName" : "send",
+    "argsCount" : 2,
+    "interactionType" : "MESSAGE_SEND"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.jms.MessageConsumer",
+    "methodName" : "setMessageListener",
+    "argsCount" : 1,
+    "interactionType" : "MESSAGE_RECEIVE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "readAllBytes",
+    "argsCount" : 1,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.lang.ProcessBuilder",
+    "methodName" : "start",
+    "argsCount" : 0,
+    "interactionType" : "RUN_PROCESS"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "createTempFile",
+    "argsCount" : 4,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "org.apache.commons.io.FileUtils",
+    "methodName" : "deleteQuietly",
+    "argsCount" : 1,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "io.micronaut.http.client.BlockingHttpClient",
+    "methodName" : "exchange",
+    "argsCount" : 2,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.mail.Transport",
+    "methodName" : "send",
+    "argsCount" : 1,
+    "interactionType" : "MESSAGE_SEND"
+  }, {
+    "language" : "JVM",
+    "className" : "org.apache.velocity.app.VelocityEngine",
+    "methodName" : "getTemplate",
+    "argsCount" : 2,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "com.google.common.io.Resources",
+    "methodName" : "getResource",
+    "argsCount" : 1,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "io.micronaut.http.client.BlockingHttpClient",
+    "methodName" : "exchange",
+    "argsCount" : 1,
+    "interactionType" : "REQUEST"
   } ]
 }
