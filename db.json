@@ -329,5 +329,77 @@
     "methodName" : "exchange",
     "argsCount" : 1,
     "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.xml.bind.Marshaller",
+    "methodName" : "marshal",
+    "argsCount" : 2,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.InputStream",
+    "methodName" : "read",
+    "argsCount" : 0,
+    "interactionType" : "IO_READ"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.FileOutputStream",
+    "methodName" : "write",
+    "argsCount" : 1,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "io.micronaut.websocket.WebSocketBroadcaster",
+    "methodName" : "broadcast",
+    "argsCount" : 2,
+    "interactionType" : "BROADCAST"
+  }, {
+    "language" : "JVM",
+    "className" : "java.sql.Statement",
+    "methodName" : "executeUpdate",
+    "argsCount" : 1,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.sql.PreparedStatement",
+    "methodName" : "executeUpdate",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.sql.PreparedStatement",
+    "methodName" : "executeQuery",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.sql.Statement",
+    "methodName" : "executeQuery",
+    "argsCount" : 1,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.PrintWriter",
+    "methodName" : "write",
+    "argsCount" : 1,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.jms.core.JmsTemplate",
+    "methodName" : "send",
+    "argsCount" : 2,
+    "interactionType" : "MESSAGE_SEND"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.jdbc.core.JdbcTemplate",
+    "methodName" : "query",
+    "argsCount" : 2,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.jdbc.core.JdbcTemplate",
+    "methodName" : "update",
+    "argsCount" : 2,
+    "interactionType" : "DATABASE"
   } ]
 }
