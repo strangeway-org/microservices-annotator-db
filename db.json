@@ -401,5 +401,23 @@
     "methodName" : "update",
     "argsCount" : 2,
     "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "javax.persistence.EntityTransaction",
+    "methodName" : "begin",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "newBufferedWriter",
+    "argsCount" : 2,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "com.fasterxml.jackson.databind.ObjectWriter",
+    "methodName" : "writeValue",
+    "argsCount" : 2,
+    "interactionType" : "IO_WRITE"
   } ]
 }
