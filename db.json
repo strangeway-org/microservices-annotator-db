@@ -419,5 +419,23 @@
     "methodName" : "writeValue",
     "argsCount" : 2,
     "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.FileInputStream",
+    "methodName" : "FileInputStream",
+    "argsCount" : 1,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "com.fasterxml.jackson.databind.ObjectMapper",
+    "methodName" : "readValue",
+    "argsCount" : 2,
+    "interactionType" : "IO_READ"
+  }, {
+    "language" : "JVM",
+    "className" : "org.apache.poi.hssf.usermodel.HSSFWorkbook",
+    "methodName" : "write",
+    "argsCount" : 1,
+    "interactionType" : "IO_WRITE"
   } ]
 }
