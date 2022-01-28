@@ -437,5 +437,119 @@
     "methodName" : "write",
     "argsCount" : 1,
     "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.hibernate.Session",
+    "methodName" : "get",
+    "argsCount" : 2,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.hibernate.Session",
+    "methodName" : "refresh",
+    "argsCount" : 1,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.hibernate.Criteria",
+    "methodName" : "list",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.hibernate.Criteria",
+    "methodName" : "uniqueResult",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.hibernate.query.Query",
+    "methodName" : "list",
+    "argsCount" : 0,
+    "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "software.amazon.awssdk.services.eventbridge.EventBridgeClient",
+    "methodName" : "putEvents",
+    "argsCount" : 1,
+    "interactionType" : "MESSAGE_SEND"
+  }, {
+    "language" : "JVM",
+    "className" : "software.amazon.awssdk.services.sqs.SqsAsyncClient",
+    "methodName" : "deleteMessage",
+    "argsCount" : 1,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "software.amazon.awssdk.services.sqs.SqsAsyncClient",
+    "methodName" : "sendMessage",
+    "argsCount" : 1,
+    "interactionType" : "MESSAGE_SEND"
+  }, {
+    "language" : "JVM",
+    "className" : "org.apache.commons.io.FileUtils",
+    "methodName" : "copyInputStreamToFile",
+    "argsCount" : 2,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.apache.commons.io.FileUtils",
+    "methodName" : "copyToFile",
+    "argsCount" : 2,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.net.URL",
+    "methodName" : "openStream",
+    "argsCount" : 0,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.File",
+    "methodName" : "mkdirs",
+    "argsCount" : 0,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "com.fasterxml.jackson.databind.ObjectMapper",
+    "methodName" : "readTree",
+    "argsCount" : 1,
+    "interactionType" : "IO_READ"
+  }, {
+    "language" : "JVM",
+    "className" : "io.ktor.client.request.BuildersKt",
+    "methodName" : "post",
+    "argsCount" : 3,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "com.amazonaws.services.s3.AmazonS3",
+    "methodName" : "getObject",
+    "argsCount" : 1,
+    "interactionType" : "CLOUD_STORAGE"
+  }, {
+    "language" : "JVM",
+    "className" : "com.amazonaws.services.s3.AmazonS3",
+    "methodName" : "putObject",
+    "argsCount" : 4,
+    "interactionType" : "CLOUD_STORAGE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "size",
+    "argsCount" : 1,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "createTempDirectory",
+    "argsCount" : 3,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "software.amazon.awssdk.services.s3.S3Client",
+    "methodName" : "getObjectAsBytes",
+    "argsCount" : 1,
+    "interactionType" : "CLOUD_STORAGE"
   } ]
 }
