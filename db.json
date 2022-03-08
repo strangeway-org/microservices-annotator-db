@@ -551,5 +551,41 @@
     "methodName" : "getObjectAsBytes",
     "argsCount" : 1,
     "interactionType" : "CLOUD_STORAGE"
+  }, {
+    "language" : "JVM",
+    "className" : "com.fasterxml.jackson.core.JsonParser",
+    "methodName" : "readValueAsTree",
+    "argsCount" : 0,
+    "interactionType" : "IO_READ"
+  }, {
+    "language" : "JVM",
+    "className" : "org.apache.camel.builder.endpoint.dsl.DirectEndpointBuilderFactory.DirectBuilders",
+    "methodName" : "direct",
+    "argsCount" : 1,
+    "interactionType" : "MESSAGE_SEND"
+  }, {
+    "language" : "JVM",
+    "className" : "org.apache.camel.model.ProcessorDefinition",
+    "methodName" : "split",
+    "argsCount" : 2,
+    "interactionType" : "STREAMING"
+  }, {
+    "language" : "JVM",
+    "className" : "org.apache.camel.model.ProcessorDefinition",
+    "methodName" : "process",
+    "argsCount" : 1,
+    "interactionType" : "IO_READ"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "write",
+    "argsCount" : 3,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "createFile",
+    "argsCount" : 2,
+    "interactionType" : "FILESYSTEM"
   } ]
 }
