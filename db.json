@@ -587,5 +587,23 @@
     "methodName" : "createFile",
     "argsCount" : 2,
     "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "com.fasterxml.jackson.databind.ObjectWriter",
+    "methodName" : "writeValueAsString",
+    "argsCount" : 1,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.util.StreamUtils",
+    "methodName" : "copy",
+    "argsCount" : 2,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "readString",
+    "argsCount" : 1,
+    "interactionType" : "FILESYSTEM"
   } ]
 }
