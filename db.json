@@ -605,5 +605,113 @@
     "methodName" : "readString",
     "argsCount" : 1,
     "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.net.Socket",
+    "methodName" : "getInputStream",
+    "argsCount" : 0,
+    "interactionType" : "IO_READ"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "postForObject",
+    "argsCount" : 4,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "getForObject",
+    "argsCount" : 3,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "getForEntity",
+    "argsCount" : 3,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "getForEntity",
+    "argsCount" : 2,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "patchForObject",
+    "argsCount" : 3,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "patchForObject",
+    "argsCount" : 4,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "delete",
+    "argsCount" : 2,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "delete",
+    "argsCount" : 1,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "exchange",
+    "argsCount" : 4,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "headForHeaders",
+    "argsCount" : 1,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "headForHeaders",
+    "argsCount" : 2,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "optionsForAllow",
+    "argsCount" : 1,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "optionsForAllow",
+    "argsCount" : 2,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "postForLocation",
+    "argsCount" : 3,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "postForLocation",
+    "argsCount" : 2,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "postForEntity",
+    "argsCount" : 4,
+    "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.web.client.RestTemplate",
+    "methodName" : "postForEntity",
+    "argsCount" : 3,
+    "interactionType" : "REQUEST"
   } ]
 }
