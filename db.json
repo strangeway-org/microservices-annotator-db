@@ -713,5 +713,17 @@
     "methodName" : "postForEntity",
     "argsCount" : 3,
     "interactionType" : "REQUEST"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.BufferedReader",
+    "methodName" : "readLine",
+    "argsCount" : 0,
+    "interactionType" : "IO_READ"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.Reader",
+    "methodName" : "read",
+    "argsCount" : 1,
+    "interactionType" : "IO_READ"
   } ]
 }
