@@ -725,5 +725,29 @@
     "methodName" : "read",
     "argsCount" : 1,
     "interactionType" : "IO_READ"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.amqp.rabbit.core.RabbitTemplate",
+    "methodName" : "convertAndSend",
+    "argsCount" : 3,
+    "interactionType" : "MESSAGE_SEND"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.amqp.rabbit.core.RabbitTemplate",
+    "methodName" : "convertAndSend",
+    "argsCount" : 4,
+    "interactionType" : "MESSAGE_SEND"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.Writer",
+    "methodName" : "write",
+    "argsCount" : 1,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.util.StreamUtils",
+    "methodName" : "copyToString",
+    "argsCount" : 2,
+    "interactionType" : "IO_READ"
   } ]
 }
