@@ -761,5 +761,11 @@
     "methodName" : "deleteRecursively",
     "argsCount" : 1,
     "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "org.springframework.security.provisioning.JdbcUserDetailsManager",
+    "methodName" : "validateUserDetails",
+    "argsCount" : 1,
+    "interactionType" : "DATABASE"
   } ]
 }
