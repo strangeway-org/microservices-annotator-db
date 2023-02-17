@@ -589,12 +589,6 @@
     "interactionType" : "FILESYSTEM"
   }, {
     "language" : "JVM",
-    "className" : "com.fasterxml.jackson.databind.ObjectWriter",
-    "methodName" : "writeValueAsString",
-    "argsCount" : 1,
-    "interactionType" : "IO_WRITE"
-  }, {
-    "language" : "JVM",
     "className" : "org.springframework.util.StreamUtils",
     "methodName" : "copy",
     "argsCount" : 2,
@@ -767,5 +761,23 @@
     "methodName" : "validateUserDetails",
     "argsCount" : 1,
     "interactionType" : "DATABASE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "writeString",
+    "argsCount" : 3,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
+    "className" : "java.nio.file.Path",
+    "methodName" : "toAbsolutePath",
+    "argsCount" : 0,
+    "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.File",
+    "methodName" : "lastModified",
+    "argsCount" : 0,
+    "interactionType" : "FILESYSTEM"
   } ]
 }
