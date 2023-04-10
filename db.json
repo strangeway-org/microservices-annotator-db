@@ -751,6 +751,12 @@
     "interactionType" : "IO_WRITE"
   }, {
     "language" : "JVM",
+    "className" : "kotlin.io.FilesKt__FileReadWriteKt",
+    "methodName" : "writeBytes",
+    "argsCount" : 2,
+    "interactionType" : "IO_WRITE"
+  }, {
+    "language" : "JVM",
     "className" : "kotlin.io.FilesKt__UtilsKt",
     "methodName" : "deleteRecursively",
     "argsCount" : 1,
@@ -779,5 +785,17 @@
     "methodName" : "lastModified",
     "argsCount" : 0,
     "interactionType" : "FILESYSTEM"
+  }, {
+    "language" : "JVM",
+    "className" : "java.util.Scanner",
+    "methodName" : "nextLine",
+    "argsCount" : 0,
+    "interactionType" : "IO_READ"
+  }, {
+    "language" : "JVM",
+    "className" : "java.io.DataInputStream",
+    "methodName" : "readInt",
+    "argsCount" : 0,
+    "interactionType" : "IO_READ"
   } ]
 }
