@@ -797,5 +797,11 @@
     "methodName" : "readInt",
     "argsCount" : 0,
     "interactionType" : "IO_READ"
+  } , {
+    "language" : "JVM",
+    "className" : "java.nio.file.Files",
+    "methodName" : "list",
+    "argsCount" : 1,
+    "interactionType" : "FILESYSTEM"
   } ]
 }
