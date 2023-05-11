@@ -803,5 +803,11 @@
     "methodName" : "list",
     "argsCount" : 1,
     "interactionType" : "FILESYSTEM"
+  } , {
+    "language" : "JVM",
+    "className" : "java.io.File",
+    "methodName" : "isDirectory",
+    "argsCount" : 0,
+    "interactionType" : "FILESYSTEM"
   } ]
 }
